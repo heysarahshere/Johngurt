@@ -1,9 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
 	<PropertyGroup>
-		
+		<TargetFramework>net472</TargetFramework>
+		<OutputType>Library</OutputType>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>ModProject</RootNamespace>
+		<AssemblyName>ModProject</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>
-		
+		<Reference Include="MelonLoader">
+			<HintPath>References\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>References\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>References\Assembly-CSharp.dll</HintPath>
+		</Reference>
 	</ItemGroup>
+
 </Project>
