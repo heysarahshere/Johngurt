@@ -1,0 +1,4 @@
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\ModProject.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.csproj.AssemblyReference.cache
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.csproj.CoreCompileInputs.cache
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.dll

@@ -1,0 +1,3 @@
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\ModProject.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\x64\ModProject.csproj.CoreCompileInputs.cache
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\x64\ModProject.dll
