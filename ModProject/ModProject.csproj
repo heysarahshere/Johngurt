@@ -1,14 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
-		<TargetFramework>net472</TargetFramework>
-		<OutputType>Library</OutputType>
-		<LangVersion>latest</LangVersion>
-		<RootNamespace>ModProject</RootNamespace>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
 		<AssemblyName>ModProject</AssemblyName>
+		<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+		<OutputType>Library</OutputType>
+		<RootNamespace>ModProject</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Reference Include="System" />
+		<Reference Include="System.Core" />
 		<Reference Include="MelonLoader">
 			<HintPath>References\MelonLoader.dll</HintPath>
 		</Reference>
@@ -19,5 +22,4 @@
 			<HintPath>References\Assembly-CSharp.dll</HintPath>
 		</Reference>
 	</ItemGroup>
-
 </Project>
