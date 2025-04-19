@@ -2,3 +2,8 @@ C:\Users\heysa\Documents\Johngurt\ModProject\bin\ModProject.dll
 C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.csproj.AssemblyReference.cache
 C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.csproj.CoreCompileInputs.cache
 C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\Debug\ModProject.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\Debug\Assembly-CSharp.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\Debug\MelonLoader.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\bin\Debug\UnityEngine.dll
+C:\Users\heysa\Documents\Johngurt\ModProject\obj\ModProject.csproj.CopyComplete

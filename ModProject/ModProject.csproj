@@ -1,12 +1,11 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
-		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-		<Platform Condition=" '$(Platform)' == '' ">x64</Platform>
-		<OutputPath>bin\$(Configuration)\</OutputPath>
 		<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-		<AssemblyName>ModProject</AssemblyName>
-		<RootNamespace>ModProject</RootNamespace>
 		<OutputType>Library</OutputType>
+		<PlatformTarget>x64</PlatformTarget>
+		<RootNamespace>ModProject</RootNamespace>
+		<AssemblyName>ModProject</AssemblyName>
+		<OutputPath>bin\Debug\</OutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -14,15 +13,12 @@
 		<Reference Include="System.Core" />
 		<Reference Include="MelonLoader">
 			<HintPath>References\MelonLoader.dll</HintPath>
-			<Private>false</Private>
 		</Reference>
 		<Reference Include="UnityEngine">
 			<HintPath>References\UnityEngine.dll</HintPath>
-			<Private>false</Private>
 		</Reference>
 		<Reference Include="Assembly-CSharp">
 			<HintPath>References\Assembly-CSharp.dll</HintPath>
-			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
 
